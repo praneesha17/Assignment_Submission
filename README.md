@@ -77,39 +77,8 @@ This ensures large values are handled accurately.
 
 ### Lagrange Interpolation
 
-Given the selected **k** points:
 
-\[
-(x_1, y_1), (x_2, y_2), ..., (x_k, y_k)
-\]
-
-The polynomial of degree \\(k - 1\\) is:
-
-\[
-f(x) = \sum*{i=1}^{k}
-\left[
-y_i
-\prod*{j \ne i}
-\\frac{x - x_j}{x_i - x_j}
-\right]
-\]
-
-We only need the **constant term**, which is:
-
-\[
-C = f(0)
-\]
-
-So we calculate:
-
-\[
-C = \sum*{i=1}^{k}
-\left[
-y_i
-\prod*{j \ne i}
-\\frac{-x_j}{x_i - x_j}
-\right]
-\]
+<img width="635" height="481" alt="Formula" src="https://github.com/user-attachments/assets/3ef07ac2-81eb-4239-be3b-a8e3c50033be" />
 
 ### ✔ Exact Rational Arithmetic
 
