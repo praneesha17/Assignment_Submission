@@ -80,16 +80,6 @@ This ensures large values are handled accurately.
 
 <img width="635" height="481" alt="Formula" src="https://github.com/user-attachments/assets/3ef07ac2-81eb-4239-be3b-a8e3c50033be" />
 
-### ✔ Exact Rational Arithmetic
-
-The program uses:
-
-- BigInt numerators
-- BigBigInt denominators
-- Fraction simplification
-- No floating-point operations
-
-This guarantees **perfect accuracy**, even with massive numbers.
 
 ---
 
